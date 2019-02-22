@@ -18,7 +18,7 @@
 
 
 [loader.so]
- extension = 你的扩展绝对路径（如/home/wwwroot/baidu.com/loader.so）
+ extension = 你的扩展绝对路径（如/hoprofile_v1/wwwroot/baidu.com/loader.so）
 
 第三步:保存配置文件的修改，重启PHP。
 

@@ -76,7 +76,7 @@ function optionsframework_options() {
         'name' => __( 'Favicon', 'tt' ),
         'desc' => __( 'Please upload an ico file', 'tt' ),
         'id' => 'tt_favicon',
-        'std' => THEME_ASSET . '/img/favicon.ico',
+        'std' => '',
         'type' => 'upload'
     );
 
@@ -85,7 +85,7 @@ function optionsframework_options() {
         'name' => __( 'Favicon(PNG)', 'tt' ),
         'desc' => __( 'Please upload an png file', 'tt' ),
         'id' => 'tt_png_favicon',
-        'std' => THEME_ASSET . '/img/favicon.png',
+        'std' => 'https://a0.vifan.cn/2018/09/68facdfa21a91f7f06eef4bab3e38638.jpg',
         'type' => 'upload'
     );
 
@@ -159,7 +159,7 @@ function optionsframework_options() {
 		'name' => __( 'Style', 'tt' ),
 		'type' => 'heading'
 	);
-  
+
    // - 网站主色
     $options[] = array(
         'name' => __( '网站主色', 'tt' ),
